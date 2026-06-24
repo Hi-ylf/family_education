@@ -1,0 +1,747 @@
+# Wiki 日志
+
+> 仅追加。记录 Wiki 的所有操作历史。永不修改或删除已有条目。
+
+## [2026-06-24] init | Wiki 初始化
+- 创建 index.md 和 log.md
+- 创建目录结构：summaries/、entities/、concepts/、topics/、comparisons/、synthesis/
+
+## [2026-06-24] ingest | 前言：为什么今天的父母这么难
+- 源 ID: src-001
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/前言：为什么今天的父母这么难.txt
+- 新建页面:
+  - wiki/summaries/src-001-qianyan-parenting-difficulty.md
+  - wiki/entities/沈奕斐.md
+  - wiki/concepts/intensive-motherhood.md
+  - wiki/concepts/advantage-accumulation-method.md
+- 更新页面: 无（首次摄入）
+- 关键变化: 建立知识库初始结构，摄入沈奕斐家庭教育课程前言，提取核心概念「密集母质」和「优势累积法」
+- 矛盾标记: 无
+- 待办/建议:
+  - 后续可摄入课程六个模块的详细内容
+  - 关注「密集母质」概念在学术文献中的更多讨论
+  - 中西育儿文化对比可积累更多源后创建 topic 页面
+
+## [2026-06-24] ingest | 第1节：考清北，父母什么都不做，才是对孩子最大的帮助！
+- 源 ID: src-002
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第1节：考清北，父母什么都不做，才是对孩子最大的帮助！.txt
+- 新建页面:
+  - wiki/summaries/src-002-section1-stop-correcting.md
+  - wiki/concepts/correction-based-education.md
+  - wiki/concepts/sense-of-belonging-four-stages.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增关于纠错教育批判、成熟的爱、个人育儿实践等内容）
+  - wiki/concepts/advantage-accumulation-method.md（新增罗伯特·默顿理论来源、底线思维、快乐原则、认知基础）
+- 关键变化:
+  - 建立「纠错教育」概念体系：父母教养风格与孩子成功无关，纠错实质是控制
+  - 建立「归属感四阶段模型」：过度关注→寻求权利→报复→自暴自弃，后果延后爆发
+  - 补充优势累积法的理论来源（罗伯特·默顿的自我实现预言）
+  - 「你想培养天使，先创造天堂」——停止纠错是第一步
+- 矛盾标记: 无
+- 待办/建议:
+  - 罗伯特·默顿的自我实现预言理论可创建独立概念页面
+  - 母职/父职（卤脂+蜂蜜 vs 大棒）的双系抚育理论可积累更多源后创建概念页面
+
+## [2026-06-24] ingest | 第2节：孩子眼中的你，为什么变成了「坏妈妈」？
+- 源 ID: src-003
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第2节：孩子眼中的你，为什么变成了"坏妈妈"？.txt
+- 新建页面:
+  - wiki/summaries/src-003-section2-explanatory-style.md
+  - wiki/concepts/explanatory-style.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增解释风格、认知、特点论、个人经历等内容）
+  - wiki/concepts/advantage-accumulation-method.md（新增认知基础部分）
+- 关键变化:
+  - 建立「解释风格」概念：30%语言+70%潜台词，目标与解释风格常不一致
+  - 引入情绪ABC理论（埃利斯）和「战略性目标 vs 现实性目标」分析框架
+  - 核心认知转变：「没有优点缺点，只有特点」——硬币两面论
+  - 补充沈奕斐个人育儿实践（两个孩子的特点差异）和人生故事
+- 矛盾标记: 无
+- 待办/建议:
+  - 情绪ABC理论（埃利斯）可创建独立概念页面
+  - 乐观/悲观归因模式可创建独立概念页面
+  - 战略性目标 vs 现实性目标可作为分析框架概念页面
+  - 特点论（硬币两面）与卡罗尔·德韦克的成长型思维可能存在关联，可后续对比
+
+## [2026-06-24] ingest | 第3节：内向、胆小、没主见，这些才不是孩子的缺点！
+- 源 ID: src-004
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第3节：内向、胆小、没主见，这些才不是孩子的缺点！.txt
+- 新建页面:
+  - wiki/summaries/src-004-section3-characteristics.md
+  - wiki/concepts/characteristic-based-view.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增认知模型、内向/外向讨论、实践方向等内容）
+  - wiki/concepts/explanatory-style.md（新增关联 [[特点论]]，更新 sources）
+- 关键变化:
+  - 创建「特点论」概念页面：硬币两面论的系统阐述，包含性格特点正反面对照表
+  - src-004 与 src-003 存在较大重叠（情绪ABC、特点论、芮芮案例等），已在摘要中标注
+  - 新增内容：内向/外向性格讨论、父母双标问题、让特点在好的场景里发生的实践方向
+- 矛盾标记: 无
+- 待办/建议:
+  - 情绪ABC理论（埃利斯）仍待创建独立概念页面
+  - 卡罗尔·德韦克的成长型思维与特点论的可对比性
+
+## [2026-06-24] ingest | 第4节上：为什么你总是搞不懂孩子？真相太残酷！
+- 源 ID: src-005
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第4节上：为什么你总是搞不懂孩子？真相太残酷！.txt
+- 新建页面:
+  - wiki/summaries/src-005-section4a-child-differs-from-adult.md
+  - wiki/concepts/child-differs-from-adult.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增蒙特梭利引用、孩子与成人差异、学习节奏差异、顺势而为、两人三足隐喻等内容）
+  - wiki/concepts/advantage-accumulation-method.md（新增关联 [[孩子成人差异]]）
+  - wiki/concepts/correction-based-education.md（新增关联 [[孩子成人差异]]）
+- 关键变化:
+  - 引入蒙特梭利「实体化」概念：孩子不是一张白纸，有先天独特性
+  - 建立「孩子与成人三大差异」框架：先天独特性、与父母不同、目的不同（最大效益法则）
+  - 揭示「输入输出不同步」的学习节奏差异，在男孩中更常见
+  - 实用策略：妈妈时间和宝宝时间
+  - 父母的三个影响领域：行为教养、情绪表达、内驱力
+- 矛盾标记: 无
+- 待办/建议:
+  - 蒙特梭利的实体化概念需更多学术文献验证
+  - 「内驱力」概念可创建独立页面
+  - 最大效益法则（蒙特梭利）可创建独立概念页面
+
+## [2026-06-24] ingest | 第4节下：不靠打骂惩罚，还能养出好孩子吗？
+- 源 ID: src-006
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第4节下：不靠打骂惩罚，还能养出好孩子吗？.txt
+- 新建页面:
+  - wiki/summaries/src-006-section4b-rights-responsibilities.md
+  - wiki/concepts/rights-responsibilities-unity.md
+  - wiki/concepts/age-stage-parenting.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增年龄段角色、权责利统一、零花钱实践、青春期策略等内容）
+  - wiki/concepts/advantage-accumulation-method.md（新增关联 [[权责统一]]）
+  - wiki/concepts/correction-based-education.md（新增关联 [[权责统一]]、[[特点论]]）
+  - wiki/concepts/sense-of-belonging-four-stages.md（新增关联 [[年龄段育儿]]）
+- 关键变化:
+  - 建立「年龄段特点」体系：0-3岁（依赖安全）、4-6岁（规则感）、7-12岁（自律）、9-10岁（叛逆期）、10岁+（青春期）
+  - 建立「父母角色演变」球赛隐喻：守门员→教练→拉拉队→观众席
+  - 建立「权责利统一」原则：权利与责任对等，权责利到位后惩罚=暂时收回权利
+  - 区分科学育儿 vs 科学主义育儿
+  - 零花钱案例：14岁前不给，14岁后协商+试错
+  - 静待花开：铁树和狗尾巴草都有生命的价值
+- 矛盾标记: 无
+- 待办/建议:
+  - 各年龄段精确分界点需更多儿童发展心理学文献支持
+  - 弗洛伊德「本我/自我」概念在育儿中的应用可创建独立页面
+  - 科学主义育儿 vs 科学育儿可作为独立概念
+
+## [2026-06-24] ingest | 批量摄入 src-027 至 src-031（第23-27节）
+- 源 ID: src-027, src-028, src-029, src-030, src-031
+- 类型: 课程讲稿（音频转录）
+- 文件位置:
+  - raw/notes/沈奕斐-家庭教育课程/第23节：性教育到底该怎么做？劝你不懂别乱教！.txt
+  - raw/notes/沈奕斐-家庭教育课程/第24节：孩子玩手机上瘾？学会这三招，让孩子自愿放下手机！.txt
+  - raw/notes/沈奕斐-家庭教育课程/第25节：一个家庭如何向上走？核心只有这一点！.txt
+  - raw/notes/沈奕斐-家庭教育课程/第26节：拒绝"丧偶式育儿"！三招把"猪队友"变成"神队友"！.txt
+  - raw/notes/沈奕斐-家庭教育课程/第27节：老人带娃，真的是来"帮忙"的吗？.txt
+- 新建页面:
+  - wiki/summaries/src-027-sex-education-guide.md
+  - wiki/summaries/src-028-screen-time-management.md
+  - wiki/summaries/src-029-couple-relationship-core.md
+  - wiki/summaries/src-030-father-involvement.md
+  - wiki/summaries/src-031-grandparent-co-parenting.md
+  - wiki/concepts/sex-education-four-dimensions.md
+  - wiki/concepts/body-autonomy.md
+  - wiki/concepts/instant-gratification-system.md
+  - wiki/concepts/screen-time-negotiation.md
+  - wiki/concepts/network-addiction-criteria.md
+  - wiki/concepts/couple-relationship-foundation.md
+  - wiki/concepts/couple-co-parenting.md
+  - wiki/concepts/child-as-scapegoat.md
+  - wiki/concepts/father-involvement.md
+  - wiki/concepts/maternal-gatekeeping.md
+  - wiki/concepts/father-child-happy-time.md
+  - wiki/concepts/mutual-authority-building.md
+  - wiki/concepts/grandparent-co-parenting.md
+  - wiki/concepts/intergenerational-stigma.md
+  - wiki/concepts/new-old-script-conflict.md
+  - wiki/concepts/family-constellation.md
+- 更新页面:
+  - wiki/index.md（新增5个源摘要、16个概念页面）
+  - wiki/concepts/rights-responsibilities-unity.md sources 增加 src-031
+- 关键变化:
+  - 性教育模块：建立四维度框架（身体边界、性别教育、亲密关系、狭义的性），核心是身体自主权
+  - 网络/手机管理模块：即时成就感体系、网络成瘾判断标准、屏幕时间协商法
+  - 夫妻关系模块：夫妻关系是家庭"硬装"、夫妻共育（分工+权责利）、孩子替罪羊效应
+  - 父亲参与模块：三大困境、母爱把关者、嗨时光、互相树立权威感
+  - 隔代育儿模块：隔代育儿污名化、新旧脚本混杂、家庭星盘、权责利统一的扩展应用
+  - 权责利统一从亲子教育→夫妻共育→隔代育儿的完整应用链
+  - 优势累积法/正面标签在新场景中的应用（网络管理、婆媳关系、父亲参与）
+- 矛盾标记: 无
+- 待办/建议:
+  - 性教育四维度可与联合国教科文组织框架创建对比页面
+  - 夫妻共育与父亲参与可整合为家庭协作育儿主题页面
+  - 隔代育儿污名化与密集母质的张力值得创建综合分析
+  - 第27节下（喂饭、哄睡、溺爱）尚未摄入，可后续处理
+
+## [2026-06-24] ingest | 第19节：花几万给孩子上"情商班"？最好的情商教育竟然是……
+- 源 ID: src-022
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第19节：花几万给孩子上"情商班"？最好的情商教育竟然是.txt
+- 新建页面:
+  - wiki/summaries/src-022-section19-emotional-intelligence.md
+  - wiki/concepts/emotional-intelligence.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增关于情绪教育、个人案例等内容）
+- 关键变化:
+  - 建立「情商/情绪智力」概念：认识管理自己情绪+理解他人情绪
+  - 情绪三大误区：控制情绪=情绪教育、正面负面之分、忽视情绪信息价值
+  - 情绪三区域模型（绿色/蓝色/红色）和情绪发泄三原则
+  - 培养情商两层次：认识表达情绪→理解他人情绪（共情）
+  - 个人案例：社交问题触发崩溃源于童年被孤立经历
+- 矛盾标记: 无
+- 待办/建议:
+  - 共情概念可创建独立页面
+  - 情绪ABC理论已在src-003提及，可整合
+
+## [2026-06-24] ingest | 第20节：孩子交朋友，父母要不要管？
+- 源 ID: src-023
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第20节：孩子交朋友，父母要不要管？.txt
+- 新建页面:
+  - wiki/summaries/src-023-section20-social-skills.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增社交教育观点、费曼学习法案例、安全底线实践）
+- 关键变化:
+  - 社交本质是链接，链接背后是自我认同；青少年社交是"半条命"
+  - 交朋友是亲密关系的延伸——孩子复制与父母的交往模式
+  - 安全底线三原则：告知原则、第一现场原则、远离暴力倾向者
+  - 费曼学习法的无意识实践案例
+  - 不要功利化交友、不干涉孩子选择、给予试错空间
+- 矛盾标记: 无
+- 待办/建议:
+  - 自我认同概念可创建独立页面（埃里克森发展理论）
+  - 亲密关系复制模式可创建独立概念
+
+## [2026-06-24] ingest | 第20节问答：孩子被欺负怎么办？
+- 源 ID: src-024
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第20节问答：孩子被欺负怎么办？.txt
+- 新建页面:
+  - wiki/summaries/src-024-section20qa-bullying.md
+  - wiki/concepts/authentic-parenting.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增"筐"理论、"真实父母"理念）
+- 关键变化:
+  - 建立「真实父母」概念：给孩子与真实社会相吻合的"行为筐"
+  - "筐"理论：筐太小（过度限制）和筐太大（过度放纵）都会导致社交问题
+  - "说不"的能力在家庭中练习——不能对父母说不→也不能对别人说不
+  - 问题三分法：底线问题/自然后果/逻辑后果
+  - "窝里横外面怂"是一体两面
+- 矛盾标记: 无
+- 待办/建议:
+  - 说不的能力可创建独立概念页面
+
+## [2026-06-24] ingest | 第21节：请把兴趣班从孩子的日程表中划掉！
+- 源 ID: src-025
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第21节：请把兴趣班从孩子的日程表中划掉！.txt
+- 新建页面:
+  - wiki/summaries/src-025-section21-interest-classes.md
+  - wiki/concepts/sensitive-period-montessori.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增兴趣班观点、敏感期解读、个人育儿实践）
+- 关键变化:
+  - 兴趣班三分类：事业基础/纯粹爱好/发展能力，每类投入策略不同
+  - 建立「敏感期（蒙特梭利）」概念页面：蝴蝶隐喻、婴儿案例、商业机构曲解
+  - 天赋的两个标志：内驱力+学得轻松快乐
+  - 强烈反对学龄前academic training：四万家庭研究表明有害
+  - 放弃vs逃避：放弃是拥有了不要，逃避是搞不定不得不走
+  - 父母角色是园丁而非木匠
+- 矛盾标记: 无
+- 待办/建议:
+  - 蒙特梭利可创建实体页面
+  - 放弃vs逃避可创建独立概念
+
+## [2026-06-24] ingest | 第22节：让孩子爱上学习，甚至主动学习，真的有可能吗？
+- 源 ID: src-026
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第22节：让孩子爱上学习，甚至主动学习，真的有可能吗？.txt
+- 新建页面:
+  - wiki/summaries/src-026-section22-learning-motivation.md
+  - wiki/concepts/intrinsic-motivation.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增学习观、两个孩子的补课案例、家庭学习氛围实践）
+- 关键变化:
+  - 建立「内驱力」概念：兴趣+目标+成就感，学习的根本动力
+  - 学习公式：智商+学习习惯+学习方法=学习成果，背后共同因素是内驱力
+  - 不破坏比激发更重要；外驱力可通过游戏化转化为内驱力
+  - 补课原则：孩子自己发现需求才补课
+  - 压力与内驱力关系：适当压力促进，过大压力扼杀；父母制造的毒性压力
+  - "用心的父母 > 用力的父母 > 花钱的父母"
+  - 女儿考砸案例："考砸一门也是常态""运气真不好，要不要吃顿好的"
+- 矛盾标记: 无
+- 待办/建议:
+  - 毒性压力概念可与密集母质创建关联分析
+  - 学习公式可与成长型思维（德韦克）创建对比
+
+## [2026-06-24] ingest | 第10节上：请把感知冷暖的机会还给孩子！
+- 源 ID: src-012
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第10节上：请把感知冷暖的机会还给孩子！.txt
+- 新建页面:
+  - wiki/summaries/src-012-section10a-natural-consequences.md
+  - wiki/concepts/natural-consequences-framework.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增问题三分法相关内容）
+  - wiki/concepts/correction-based-education.md（新增关联 [[自然后果框架]]）
+  - wiki/concepts/age-stage-parenting.md（新增 src-012 来源和关联）
+- 关键变化:
+  - 建立「问题三分法」框架：自然后果/逻辑后果/底线问题
+  - 自然后果核心：父母忍住不干预，让孩子试错成长
+  - 解决自然后果三大原则：主体是孩子、需要更长时间、至少七次机会
+  - 冷暖问题深度分析：感冒误区、预判能力培养
+  - 学习是典型的延迟自然后果
+- 矛盾标记: 无
+- 待办/建议:
+  - 「内驱力」概念可创建独立页面
+  - 各年龄段自然后果重点可与 src-006 年龄段框架做对比分析
+
+## [2026-06-24] ingest | 第10节下：拖拉、打人，这些问题都是培养孩子的机会！
+- 源 ID: src-013
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第10节下：拖拉、打人，这些问题都是培养孩子的机会！.txt
+- 新建页面:
+  - wiki/summaries/src-013-section10b-skill-method.md
+  - wiki/concepts/skill-method.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增技能法、搭台阶等内容）
+  - wiki/concepts/advantage-accumulation-method.md（新增技能法和正面标签关联）
+  - wiki/concepts/correction-based-education.md（新增关联 [[技能法]]）
+- 关键变化:
+  - 引入本富尔曼「儿童技能法」：问题→技能的转化
+  - 建立五阶段实施法：确定技能→准备→支持→练习→庆祝
+  - 搭台阶五个要点：看问题高度、了解孩子、符合年龄段、方法多样、允许走弯路
+  - 欧磊尿裤子案例、加十赛游戏案例
+- 矛盾标记: 无
+- 待办/建议:
+  - 本富尔曼可创建实体页面
+  - 技能法与 [[优势累积法]] 的关系可进一步深化
+
+## [2026-06-24] ingest | 第11节：不打不骂，也能管好熊孩子！
+- 源 ID: src-014
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第11节：不打不骂，也能管好熊孩子！.txt
+- 新建页面:
+  - wiki/summaries/src-014-section11-logical-consequences.md
+  - wiki/concepts/face-saving-technique.md
+  - wiki/concepts/three-rs-apology.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增面子技巧、冲突处理等内容）
+  - wiki/concepts/rights-responsibilities-unity.md（新增 src-014 来源和关联）
+  - wiki/concepts/explanatory-style.md（新增 src-014 来源和关联）
+  - wiki/concepts/correction-based-education.md（新增关联 [[面子技巧]]、[[三R道歉法]]）
+- 关键变化:
+  - 逻辑后果核心原则：影响他人的行为无论理由多正当都不被容许
+  - 建立「面子技巧」概念：PET效能法，把你信息变我信息（行为+感受+影响）
+  - 建立「三个R道歉原则」：承认错误→和好→解决问题
+  - 熊孩子的双面性：父母放任+社会容错率低
+  - 家庭暴力零容忍、故意与否判断标准
+- 矛盾标记: 无
+- 待办/建议:
+  - 杰尼尔森《正面管教》可创建独立概念页面
+  - 儿童友好社会概念可积累更多源后创建独立页面
+
+## [2026-06-24] ingest | 第12节：给孩子立规矩，超过三个就没用了！
+- 源 ID: src-015
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第12节：给孩子立规矩，超过三个就没用了！.txt
+- 新建页面:
+  - wiki/summaries/src-015-section12-bottom-line-rules.md
+  - wiki/concepts/bottom-line-rules.md
+  - wiki/concepts/sharing-misconception.md
+  - wiki/concepts/lying-four-types.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增底线设定、分享误区、撒谎分类等内容）
+  - wiki/concepts/rights-responsibilities-unity.md（新增 src-015 来源和关联）
+  - wiki/concepts/correction-based-education.md（新增关联 [[底线规则]]）
+- 关键变化:
+  - 底线三特征：容易操作、有明显后果、不涉及价值判断
+  - 游泳池隐喻：清晰底线=安全，无边界=不安全，变化边界=最糟糕
+  - 分享误区：物权归自己≠分享，强迫分享损害同理心
+  - 撒谎四种类型：缺乏判断力/有需求/被逼/恶意，只有第四种是底线
+  - 挑战「无条件的爱」流行观念
+- 矛盾标记: 无
+- 待办/建议:
+  - 「无条件的爱」概念可创建独立页面进行分析
+  - 撒谎与各年龄段判断力发展的关系可深入探讨
+
+## [2026-06-24] ingest | 第13节：被标签暗示的孩子，影响有多大？
+- 源 ID: src-016
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第13节：被标签暗示的孩子，影响有多大？.txt
+- 新建页面:
+  - wiki/summaries/src-016-section13-positive-labeling.md
+  - wiki/concepts/positive-labeling.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增正面标签内容）
+  - wiki/concepts/advantage-accumulation-method.md（新增正面标签和技能法关联）
+  - wiki/concepts/correction-based-education.md（新增关联 [[正面标签]]）
+  - wiki/concepts/characteristic-based-view.md（新增 src-016 来源）
+  - wiki/concepts/explanatory-style.md（新增 src-016 来源和关联）
+- 关键变化:
+  - 建立「正面标签法」概念：对可复制的正确行为进行肯定
+  - 正面标签≠表扬：事实vs价值判断，不带功利性
+  - 三个关键词：可复制、正确行为、肯定
+  - 五个操作工具：句式转化、书面贴标签、网络点赞、自己贴标签、对比过去行为
+  - 三个能力维度：看见全面事实、对比今天昨天、看到成功关键
+  - 儿子写字案例、跪着写作业案例、后妈家校手册案例
+- 矛盾标记: 无
+- 待办/建议:
+  - 正面标签与表扬的区别可创建对比页面
+  - 正面标签在不同年龄段的适用性可深入探讨
+
+## [2026-06-24] ingest | 第14节：表扬孩子，别只知道"你真棒"！
+- 源 ID: src-017
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第14节：表扬孩子，别只知道"你真棒"！.txt
+- 新建页面:
+  - wiki/summaries/src-017-praise-and-positive-labels.md
+  - wiki/concepts/descriptive-praise.md
+  - wiki/concepts/riva-praise-framework.md
+- 更新页面:
+  - wiki/concepts/advantage-accumulation-method.md（新增描述性赞赏、RIVA关联）
+  - wiki/concepts/characteristic-based-view.md（新增 src-017 来源和关联）
+  - wiki/concepts/correction-based-education.md（新增关联描述性赞赏、RIVA）
+  - wiki/entities/沈奕斐.md（新增 src-017 来源）
+- 关键变化:
+  - 建立「描述性赞赏」概念：三步法（描述看见的+描述感受+总结为词）
+  - 建立「RIVA表扬法」：Random/Intermittent/Varied/Accumulated/Reinforced
+  - 信任vs期待：表扬传递"我信任你"而非"我期待你"
+  - 批评对事不对人、表扬从行为落实到品质
+- 矛盾标记: 无
+- 待办/建议:
+  - 小花案例可与成长型思维（德韦克）做对比
+
+## [2026-06-24] ingest | 第15节：我的孩子可以考不上清北，但不能不快乐！
+- 源 ID: src-018
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第15节：我的孩子可以考不上清北，但不能不快乐！.txt
+- 新建页面:
+  - wiki/summaries/src-018-happiness-first.md
+  - wiki/concepts/family-high-time.md
+  - wiki/concepts/easy-fun-hard-fun.md
+- 更新页面:
+  - wiki/concepts/advantage-accumulation-method.md（新增家庭嗨时光关联）
+  - wiki/concepts/correction-based-education.md（新增关联家庭嗨时光）
+  - wiki/concepts/age-stage-parenting.md（新增 src-018 来源和关联）
+  - wiki/entities/沈奕斐.md（新增 src-018 来源）
+- 关键变化:
+  - 建立「家庭嗨时光」概念：固定时间+互动快乐+从教育者到玩伴
+  - 建立「Easy Fun与Hard Fun」：两种快乐类型，学习是Hard Fun
+  - 快乐记忆是"心理储蓄"：毛里求斯理工学院抑郁研究
+  - 当代孩子快乐困境：抑郁率上升，时间被压缩
+- 矛盾标记: 无
+- 待办/建议:
+  - 快乐记忆与心理韧性的关系可深入探讨
+  - 家庭嗨时光的时间标准可与不同文化背景对比
+
+## [2026-06-24] ingest | 第16节：玩耍是更高级的学习？会玩的孩子才有未来！
+- 源 ID: src-019
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第16节：玩耍是更高级的学习？会玩的孩子才有未来！.txt
+- 新建页面:
+  - wiki/summaries/src-019-play-and-learning.md
+  - wiki/concepts/open-brain-through-play.md
+  - wiki/concepts/immersive-vs-active-attention.md
+- 更新页面:
+  - wiki/concepts/correction-based-education.md（新增关联沉浸式专注力）
+  - wiki/concepts/child-differs-from-adult.md（新增 src-019 来源和关联）
+  - wiki/entities/沈奕斐.md（新增 src-019 来源）
+- 关键变化:
+  - 建立「开放式大脑与玩耍」概念：玩耍促进前额皮质发育
+  - 建立「沉浸式与主动抓取式专注力」：两类专注力及五要素
+  - 游戏四大价值：亲密、自信、开放式大脑、专项能力
+  - 沈奕斐能量豆桌游系列：表情地、专注力套装、寻找喵喵、快乐惩罚
+  - 观察力培养四阶段
+  - 核心原则：游戏目的必须是快乐，不能是能力成长
+- 矛盾标记: 无
+- 待办/建议:
+  - 前额皮质发育与执行功能的关系可引入更多神经科学文献
+  - 能量豆桌游的游戏化设计理念可与其他教育桌游对比
+
+## [2026-06-24] ingest | 第17节：从"你应该"到"我愿意"，如何激发内在动力？
+- 源 ID: src-020
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第17节：从"你应该"到"我愿意"，如何激发内在动力？.txt
+- 新建页面:
+  - wiki/summaries/src-020-gamification-education.md
+  - wiki/concepts/gamification-education.md
+  - wiki/concepts/intrinsic-vs-extrinsic-motivation.md
+- 更新页面:
+  - wiki/concepts/rights-responsibilities-unity.md（新增 src-020 来源和关联）
+  - wiki/concepts/correction-based-education.md（新增关联游戏化教育、内在动力）
+  - wiki/entities/沈奕斐.md（新增 src-020 来源）
+- 关键变化:
+  - 建立「游戏化教育」概念：游戏三要素（动力/机制/组件）
+  - 建立「内在动力与外在动力」：内趋力三来源、外趋力三陷阱、正确使用四步法
+  - 查理搭积木案例：外趋力导致目标偏移的典型
+  - 女儿学游泳案例：传统方式vs游戏化方式
+  - 《美丽人生》电影引用
+  - 游戏化解决特殊问题（自卫行为、袜子游戏）
+- 矛盾标记: 无
+- 待办/建议:
+  - 外趋力研究可引入Deci & Ryan的自我决定理论
+  - 游戏化教育在不同文化背景下的适用性
+
+## [2026-06-24] ingest | 第18节：不懂好好说话的父母，最容易养出无话可说的孩子！
+- 源 ID: src-021
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第18节：不懂好好说话的父母，最容易养出无话可说的孩子！.txt
+- 新建页面:
+  - wiki/summaries/src-021-parent-child-communication.md
+  - wiki/concepts/three-communication-scenarios.md
+  - wiki/concepts/five-cooperation-skills.md
+- 更新页面:
+  - wiki/concepts/active-listening.md（新增 src-021 来源、四技巧框架、Don't Judge原则）
+  - wiki/concepts/explanatory-style.md（新增 src-021 来源和关联）
+  - wiki/concepts/rights-responsibilities-unity.md（新增 src-021 来源和关联）
+  - wiki/concepts/characteristic-based-view.md（新增关联积极倾听）
+  - wiki/concepts/correction-based-education.md（新增关联三种沟通场景、积极倾听、鼓励合作五技巧）
+  - wiki/concepts/advantage-accumulation-method.md（新增关联三种沟通场景）
+  - wiki/entities/沈奕斐.md（新增 src-021 来源）
+- 关键变化:
+  - 建立「三种亲子沟通场景」：随意聊天/传递信息/解决冲突
+  - 「积极倾听」页面新增四技巧和Don't Judge原则
+  - 建立「鼓励合作五技巧」：描述问题/提示/简单原因/表达感受/改变提醒
+  - 核心认知转变："对孩子说话"→"和孩子说话"
+  - 惩罚必须有相关性（与权责利统一一致）
+  - 小乌龟案例、超市案例
+- 矛盾标记: 无
+- 待办/建议:
+  - 可引入托马斯·戈登的PET父母效能训练作为补充源
+
+## [2026-06-24] ingest | 第5节：穷养男富养女，真的对吗？
+- 源 ID: src-007
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第5节：穷养男富养女，真的对吗？.txt
+- 新建页面:
+  - wiki/summaries/src-007-section5-gender-education.md
+  - wiki/concepts/social-gender-construction.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增性别教育理念和育儿案例）
+  - wiki/concepts/advantage-accumulation-method.md（新增关联 [[社会性别建构]]）
+  - wiki/concepts/characteristic-based-view.md（新增关联 [[社会性别建构]]）
+  - wiki/concepts/intensive-motherhood.md（新增关联 [[社会性别建构]]）
+- 关键变化:
+  - 建立「社会性别建构」概念：生理性别(sex)与社会性别(gender)的区分
+  - 性别气质源于狩猎文化vs采集文化，现代社会需求已超越传统性别气质
+  - 美好品质不分性别，穷养富养的实质是金钱观教育
+  - 引入《游戏力》的链接方式：给女孩力量感，给男孩情感表达
+- 矛盾标记: 无
+- 待办/建议:
+  - 《粉色大脑，蓝色大脑》（勒斯·埃雷特）可作为补充源
+  - 米德三个原始部落研究可后续补充
+
+## [2026-06-24] ingest | 第6节：当妈要有当妈的样？劝你别信！
+- 源 ID: src-008
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第6节：当妈要有当妈的样？劝你别信！.txt
+- 新建页面:
+  - wiki/summaries/src-008-section6-mother-identity.md
+  - wiki/concepts/support-system-parenting.md
+  - wiki/concepts/four-life-attitudes.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增母亲角色、支持体系、PET理念等内容）
+  - wiki/concepts/intensive-motherhood.md（新增关联 [[支持系统育儿]]、[[四种生活态度]]）
+- 关键变化:
+  - 批判"完美超级妈妈"框架，提倡做真实的妈妈
+  - 建立「支持体系育儿」概念：多人培养优于一人培养
+  - 引入「四种生活态度取向」（正面管教）
+  - "园丁"而非"木匠"：陪伴质量比时间长度更重要
+- 矛盾标记: 无
+- 待办/建议:
+  - 贺玲峰"三个天使"理念可创建独立概念页面
+  - 全职妈妈与职业妈妈的"镜向竞争"可作为独立概念
+
+## [2026-06-24] ingest | 第7节：明明我说的都对，为什么孩子还是不愿意听？
+- 源 ID: src-009
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第7节：明明我说的都对，为什么孩子还是不愿意听？.txt
+- 新建页面:
+  - wiki/summaries/src-009-section7-why-child-wont-listen.md
+  - wiki/concepts/topic-separation.md
+  - wiki/concepts/pareto-principle-parenting.md
+  - wiki/concepts/helping-vs-controlling.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增沟通障碍、少做少说、课题分离等观点）
+  - wiki/concepts/advantage-accumulation-method.md（新增关联 [[话题分离]]、[[帕累托育儿原则]]）
+  - wiki/concepts/correction-based-education.md（新增关联 [[话题分离]]、[[帮助与控制]]）
+  - wiki/concepts/explanatory-style.md（新增关联 [[帮助与控制]]）
+  - wiki/concepts/sense-of-belonging-four-stages.md（新增关联 [[帕累托育儿原则]]）
+- 关键变化:
+  - 唠叨的本质是不信任，帮助和控制没有严格区分
+  - 建立「课题分离」概念：很多问题是父母自己的焦虑
+  - 建立「二八定律在育儿中的应用」：80%问题放手，20%集中解决
+  - 建立「帮助与控制的边界」：少做少说更有效
+- 矛盾标记: 无
+- 待办/建议:
+  - 斯科登12种沟通障碍可创建独立概念页面
+  - 滑坡谬误可作为独立概念
+
+## [2026-06-24] ingest | 第8节：学会这个思维方式，解决家庭中80%的烦恼！
+- 源 ID: src-010
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第8节：学会这个思维方式，解决家庭中80%的烦恼！.txt
+- 新建页面:
+  - wiki/summaries/src-010-section8-solving-family-issues.md
+  - wiki/concepts/attention-as-tool.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增三种解决思路、积极倾听、关注力方法）
+  - wiki/concepts/advantage-accumulation-method.md（新增关联 [[关注力工具]]）
+  - wiki/concepts/active-listening.md（新增src-010来源）
+- 关键变化:
+  - 三种解决困惑场景的思路：花钱解决、改变环境、改变自己
+  - 积极倾听六步法和语气词回应技巧
+  - 建立「关注力作为教育工具」概念：关注好行为→重复好行为
+  - 扔筷子、说脏话案例：孩子发现某种行为能引起关注就会重复
+- 矛盾标记: 无
+- 待办/建议:
+  - 罗素《权力论》中的群体依赖理论可创建独立概念页面
+  - 正面标签法的具体操作可后续补充
+
+## [2026-06-24] ingest | 第9节：打人、拖拉、说脏话。坏习惯背后，都是孩子的需求！
+- 源 ID: src-011
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第9节：打人、拖拉、说脏话。坏习惯背后，都是孩子的需求！.txt
+- 新建页面:
+  - wiki/summaries/src-011-section9-behavior-problems.md
+  - wiki/concepts/observation-table.md
+  - wiki/concepts/heuristic-questioning.md
+- 更新页面:
+  - wiki/entities/沈奕斐.md（新增观察量表、启发式提问、拖拉四种原因等）
+  - wiki/concepts/correction-based-education.md（新增关联 [[观察量表]]）
+  - wiki/concepts/characteristic-based-view.md（新增关联 [[观察量表]]）
+  - wiki/concepts/sense-of-belonging-four-stages.md（新增关联 [[观察量表]]）
+- 关键变化:
+  - 建立「观察量表」工具：记录时间地点过程，至少推测三种原因
+  - 建立「启发式提问」方法：通过开放式提问让孩子自己找到问题原因
+  - 拖拉的四种原因：节奏差异、能力不足、做完还有新作业、归属感不足叛逆
+  - 咬指甲案例：不同年龄有不同原因，压制表面行为可能带来更严重后果
+  - 打人案例：同样行为不同原因需要不同解决方案
+- 矛盾标记: 无
+- 待办/建议:
+  - 拖拉的四种原因可创建独立对比页面
+  - 记忆力测试方法（数字重复）可作为实用工具补充
+  - 三种沟通场景与成人沟通理论的对比分析
+
+## [2026-06-24] ingest | 第27节下：喂饭、哄睡、溺爱，"隔辈亲"毁了孩子怎么办？
+- 源 ID: src-032
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第27节下：喂饭、哄睡、溺爱，"隔辈亲"毁了孩子怎么办？.txt
+- 新建页面:
+  - wiki/summaries/src-032-grandparent-conflict-resolution.md
+  - wiki/concepts/science-vs-scientism.md
+- 更新页面:
+  - wiki/concepts/grandparent-co-parenting.md（新增具体冲突领域与解决方法）
+  - wiki/concepts/family-constellation.md（新增配偶被忽视感）
+  - wiki/concepts/new-old-script-conflict.md（新增实践中的应对策略）
+  - wiki/concepts/intergenerational-stigma.md（新增科学主义加剧污名化）
+- 关键变化:
+  - 建立「科学与科学主义育儿」概念：科学育儿根据孩子特点，科学主义把孩子当标准产品
+  - 补充隔代育儿的具体冲突领域：饮食、穿衣、睡觉、行为习惯
+  - 孩子从祖辈回到父母身边：先建立关系再纠正习惯，不能急于改造
+  - 溺爱换不来影响力，真正有影响力的是能给孩子需要的支持
+  - 重视配偶的被忽视感：自己父母来时配偶容易觉得被排斥
+- 矛盾标记: 无
+- 待办/建议:
+  - 科学主义育儿的概念可与商业育儿机构的批判性分析结合
+  - 孩子从祖辈回到父母身边的案例可与其他类似家庭案例对比
+
+## [2026-06-24] ingest | 第28节：家校矛盾：什么都让家长做了，还要老师干什么？
+- 源 ID: src-033
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第28节：家校矛盾：什么都让家长做了，还要老师干什么？.txt
+- 新建页面:
+  - wiki/summaries/src-033-home-school-boundary.md
+  - wiki/concepts/home-school-boundary.md
+  - wiki/concepts/teacher-authority-maintenance.md
+  - wiki/concepts/pressure-transmission.md
+- 更新页面: 无
+- 关键变化:
+  - 建立「家校边界与各自职责」概念：学校负责知识传授+能力培养，家庭负责情感支持+人格培养
+  - 建立「维护老师权威」概念：权威人物学习效果更好，不在孩子面前损伤老师
+  - 建立「压力传输筒效应」概念：家长不应成为老师压力的传导者
+  - 批判"好妈妈胜过好老师"观点：混淆了家庭和学校的职责
+  - 与老师打配合战：请老师配合表扬或批评，形成良性循环
+  - 孩子不喜欢老师时：重新诠释批评、关注喜欢的老师
+- 矛盾标记: 无
+- 待办/建议:
+  - 家校关系主题可积累更多案例后创建 topic 页面
+  - 可与其他教育体系（如芬兰、日本）的家校关系进行对比
+
+## [2026-06-24] ingest | 第29节：二胎家庭和谐的秘诀，关键在老大！
+- 源 ID: src-034
+- 类型: 课程讲稿（音频转录）
+- 文件位置: raw/notes/沈奕斐-家庭教育课程/第29节：二胎家庭和谐的秘诀，关键在老大！.txt
+- 新建页面:
+  - wiki/summaries/src-034-second-child-harmony.md
+  - wiki/concepts/differential-competition.md
+  - wiki/concepts/fairness-vs-balance.md
+  - wiki/concepts/parent-exit-sibling-competition.md
+  - wiki/concepts/older-child-adjustment.md
+- 更新页面:
+  - wiki/concepts/family-constellation.md（新增二胎家庭的星盘动态）
+- 关键变化:
+  - 建立「差异性竞争」概念：孩子选择与兄弟姐妹不同定位的本能生存策略
+  - 建立「公平与平衡」概念：追求平衡（孩子都接受）而非公平（50/50）
+  - 建立「父母退出孩子竞争」概念：介入会把争抢东西变成争夺父母的爱
+  - 建立「老大的角色调整」概念：老二通过观察老大调整行为，老大是关键
+  - 承认偏心：父母会偏心，承认才能有意识校正
+  - 冲突可以接受，但暴力是底线
+  - 教孩子谈判工具：交换、轮流、评分、合作、签协议
+- 矛盾标记: 无
+- 待办/建议:
+  - 二胎家庭主题可积累更多源后创建 topic 页面
+  - 差异性竞争与出生顺序理论（阿德勒）的对比分析
+  - 公平与平衡的概念可扩展到其他关系场景（如职场团队管理）
+## [2026-06-24] lint | 健康检查
+- 检查范围: 全部（100个页面：34个摘要、1个实体、65个概念）
+- 发现的问题:
+  - **断链问题（已修复）**：
+    - 大量英文名链接指向不存在的文件（如 `[[correction-based-education|纠错教育]]`）
+    - 部分链接格式不正确（如 `[[positive-parenting-philosophy （已存在 优势累积法]]`）
+    - 部分链接中文名与文件名不匹配（如 `[[age-stage-parenting|年龄段特点与父母角色演变]]` 应为 `[[年龄段育儿]]`）
+  - **孤立页面（需人工审核）**：
+    - [[父母退出同胞竞争]] - 无其他概念页面引用
+    - [[教师权威维护]] - 无其他概念页面引用
+    - [[科学与科学主义]] - 无其他概念页面引用
+    - [[网络成瘾标准]] - 无其他概念页面引用
+    - [[相互权威建立]] - 无其他概念页面引用
+    - [[压力传递]] - 无其他概念页面引用
+    - [[长子女适应]] - 无其他概念页面引用
+  - **缺失交叉引用**：
+    - 多个概念页面没有出站链接（如 RIVA表扬框架、帮助与控制、差异性竞争等）
+    - 二胎相关概念页面之间缺少互相引用（父母退出同胞竞争、差异性竞争、公平与平衡、长子女适应）
+    - 家校相关概念页面之间缺少互相引用（家校边界、教师权威维护、压力传递）
+  - **索引一致性**：
+    - index.md 记录总页面数 91，实际文件数 100（差异源于摘要页面格式不同）
+  - **标签规范**：
+    - 标签使用基本一致，最常用标签：家庭教育(18)、沈奕斐(10)、亲子关系(10)
+    - "内驱力"和"内在动力"为同义词，建议统一
+- 已修复:
+  - 修复了 16 个文件中的英文名链接（共 30+ 处）
+  - 修复了链接格式问题（反斜杠、错误中文名等）
+  - 修复了自然后果框架页面中的断链
+- 未修复（需人类审核）:
+  - 7 个孤立概念页面需要添加交叉引用
+  - 多个概念页面需要添加出站链接
+  - 同义词标签统一（如"内驱力"/"内在动力"）
+- 建议的新调查问题:
+  - 二胎家庭主题已积累 4 个相关概念（差异性竞争、公平与平衡、父母退出同胞竞争、长子女适应），可创建 topic 页面
+  - 家校关系主题已积累 3 个相关概念（家校边界、教师权威维护、压力传递），可创建 topic 页面
+  - 夫妻关系主题已积累多个概念（夫妻共育、夫妻关系基石、母亲守门、父亲参与等），可创建 topic 页面
+- 建议的新源:
+  - 儿童发展心理学文献（验证年龄段分界点）
+  - 阿德勒出生顺序理论（与差异性竞争对比）
+  - 联合国教科文组织性教育框架（与性教育四维度对比）
+  - Deci & Ryan 自我决定理论（与内在动机概念对比）
